@@ -1,4 +1,4 @@
-function isValid(s) {
+function isValidBrackets(s) {
   let stack = [];
   let openSet = new Set(["(", "{", "["]);
   let closeOpenMap = new Map([
